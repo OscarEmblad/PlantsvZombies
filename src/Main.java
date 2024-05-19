@@ -8,11 +8,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in); // Skapa en ny Scanner för att läsa användarens input
 
         // Fråga användaren hur många zombier laget ska innehålla och läs in värdet
-        System.out.print("Hur många individer ska zombie-laget innehålla? ");
+        System.out.print("Hur många ska det finnas i zombie-laget? ");
         int numZombies = scanner.nextInt();
 
         // Fråga användaren hur många dinosaurier laget ska innehålla och läs in värdet
-        System.out.print("Hur många individer ska dinosaurie-laget innehålla? ");
+        System.out.print("Hur många ska det finnas i dinosaurie-laget? ");
         int numDinosaurs = scanner.nextInt();
 
         // Skapa listor för att lagra zombier och dinosaurier
@@ -45,4 +45,3 @@ public class Main {
     }
 }
 
-// Förutsätter att klasserna Zombie och Dinosaur finns definierade någon annanstans i ditt projekt
