@@ -1,6 +1,6 @@
 import java.util.ArrayList; // Importera ArrayList klassen för att använda dynamiska listor
 import java.util.List; // Importera List interface för att deklarera listor
-import java.util.Random; // Importera Random klassen för att generera slumpmässiga nummer (om det behövs senare)
+import java.util.Random; // Importera Random klassen för att generera slumpmässiga nummer
 import java.util.Scanner; // Importera Scanner klassen för att läsa användarens input
 
 public class Main {
@@ -41,7 +41,7 @@ public class Main {
             System.out.println(d);
         }
 
-        scanner.close(); // Stäng scannern för att frigöra resurser
+        scanner.close(); // Stäng scannern
     }
 }
 
